@@ -22,7 +22,7 @@ class Arvore {
                     $node->esquerda = new No($valor);
                     if ($valor != NULL) {
                         $GLOBALS["valorEsquerda"] += 1;
-                        // echo "Inserindo 200 pontos na esquerda<br>";
+
                     }
                 }
 
@@ -41,15 +41,10 @@ class Arvore {
                     $node->direita = new No($valor);
                     if ($valor != NULL) {
                         $GLOBALS["valorDireita"] += 1;
-                        // echo "Inserindo 100 pontos na Direita<br>";
+
                     }
-
                 }
-
             }
-
         }
-
     }
-
 }
