@@ -14,7 +14,7 @@
         include 'class/arvore.class.php';
         include 'class/no.class.php';
 
-        $no1 = New No(NULL);
+        $no1 = New No();
         $arvore = New Arvore();
 
         echo '<pre>';
@@ -34,11 +34,11 @@
 
         echo '<br><br><br>';
 
-        echo '<br>quantidade da Direita = '.$valorDireita;
+        echo '<br>quantidade da Direita = '.$valorDireita -= 1;
         echo '<br>Total de pontos da Direita = '.$valorDireita * 100;
 
         echo '<br><br><br>';
-        
+
     ?>
     <h2>Estrutura do nó</h2>
     <?php

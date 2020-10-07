@@ -1,6 +1,7 @@
 <?php
 class No {
 
+    public $raiz;
     public $esquerda;
     public $direita;
     public $valor;
