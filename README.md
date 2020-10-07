@@ -5,3 +5,6 @@ Requisitos mínimos, mesmo não tendo domínio tente usar todos os recursos abai
 ● Git 
 ● Foque em solucionar o problema 
 ● Crie alguma tela onde possamos ver o domínio HTML e CSS
+
+Requerimentos:
+XAMPP ou MAMP
