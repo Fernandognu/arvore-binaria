@@ -10,5 +10,4 @@ class No {
             $this->valor = $valor;
         }
     }
-
 }

@@ -11,8 +11,8 @@
     <h2>Random de 10 numeros, de 1 a 100</h2>
     <?php
 
-        include 'php/arvore.class.php';
-        include 'php/no.class.php';
+        include 'class/arvore.class.php';
+        include 'class/no.class.php';
 
         $no1 = New No(NULL);
         $arvore = New Arvore();
@@ -23,11 +23,12 @@
         while ($i <= 10) {
             $i++;
             $arvore->inserir($no1, random_int(1, 100));
-
         }
+
     ?>
     <h2>Totais</h2>
     <?php
+
         echo '<br>Quantidade da Esquerda = '.$valorEsquerda;
         echo '<br>Total de pontos da Esquerda = '.$valorEsquerda * 200;
 
@@ -37,6 +38,7 @@
         echo '<br>Total de pontos da Direita = '.$valorDireita * 100;
 
         echo '<br><br><br>';
+        
     ?>
     <h2>Estrutura do nó</h2>
     <?php
